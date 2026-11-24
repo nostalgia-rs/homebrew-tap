@@ -1,4 +1,5 @@
 # homebrew-tap
+
 Homebrew tap repository for nostalgia.
 
 Install Nostalgia with:
@@ -11,6 +12,7 @@ Or add the tap first, then install the formula:
 
 ```sh
 brew tap nostalgia-rs/tap
+brew trust --formula nostalgia-rs/tap/nostalgia
 brew install nostalgia
 ```
 
