@@ -30,3 +30,7 @@ just test
 
 `audit`, `install`, and `test` resolve the formula through Homebrew, so the
 tap must be installed and the formula available there.
+
+Release automation in the Nostalgia repository updates this formula from
+cargo-dist builds. It requires a repository secret named
+`HOMEBREW_TAP_TOKEN` with permission to push commits to this tap.
